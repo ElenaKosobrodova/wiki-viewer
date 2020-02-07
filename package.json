@@ -1,0 +1,19 @@
+{
+  "name": "wiki-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "node": "^13.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel -p 1237 index.html"
+  },
+  "keywords": [
+    "wiki-viewer"
+  ],
+  "author": "Elena Kosobrodova",
+  "license": "MIT"
+}
