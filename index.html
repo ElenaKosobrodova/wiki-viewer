@@ -1,23 +1,42 @@
-<!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<h1 class="orange-text"> Wiki Viewer</h1>
-<div class="form-group" style="padding: 8% 0% 8% 2%">
-  <div class="col-3">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>LenkinWeb - web design and development</title>
+  </head>
+<body>
+<h1 class="title-text"> Wiki Viewer</h1>
+<div class="form-group">
   <div class="search-container">
       <input id = "search-input" type="text" placeholder="Search.." name="search"> 
       <button  type="submit" class="btn-search" id="search-icon"><i class="fa fa-search"></i></button>
-  </div> <!-- search-container-->
-    </div> <!--col-4-->
-  <div class="col-3">
+    </div> 
   <button class="button" id="random-article">Random</button>
-  </div> <!--col-3-->
-</div> <!--form-group-->
+</div> 
+
 <div class="container">
   <div id="response">
-  </div><!--result-->
-</div> <!--container-->
+  </div>
+</body>
 
  <footer class="page-footer text-center foot-text fixed-bottom">
     <p>&copy; Elena Kosobrodova</p>
   </footer>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script src="/script.js"></script>
+</html>
